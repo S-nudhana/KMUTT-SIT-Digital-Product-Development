@@ -32,9 +32,6 @@ export default function Schedule() {
                                         <Text color={"black"}><Text as="span" fontWeight={'semibold'} pr={"5px"}>ผู้สอน:</Text>{event.speaker}</Text>
                                     </Flex>
                                 </Timeline.Description>
-                                {/* <Text textStyle="sm">
-                                    {event.time}
-                                </Text> */}
                             </Timeline.Content>
                         </Timeline.Item>
                     ))}
