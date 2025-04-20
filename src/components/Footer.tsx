@@ -9,7 +9,7 @@ export default function Footer() {
     return (
         <Box py={"20px"} bgColor={"#222222"}>
             <Box w={"85%"} justifyContent={"center"} mx={"auto"}>
-                <Box mb={"20px"} display={{ base: "block", md: "flex" }} justifyContent={{ md: "space-around", lg: "center" }} alignItems={"center"} gap={{ lg: "50px" }}>
+                <Box mb={"20px"} display={{ base: "block", md: "flex" }} justifyContent={{ md: "space-around", lg: "center" }} alignItems={"center"} gap={{ lg: "50px", xl: "100px" }}>
                     <Flex justify="center" align="center" direction="row">
                         <Image src={KMUTTSITLogo} h={{ base: "80px", md: "100px", lg: "150px" }} />
                         <Separator orientation="vertical" height={{ base: "50px", lg: "90px" }} borderInlineStartWidth={"0.7px"} borderColor={"#5C5C5C"} />

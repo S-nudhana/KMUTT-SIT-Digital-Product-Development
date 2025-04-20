@@ -34,7 +34,7 @@ export default function Banner() {
                 justifyContent="center"
                 alignItems="center"
             >
-                <VStack color={"white"} gap={4} textAlign="center" fontWeight={"medium"}>
+                <VStack color={"white"} gap={4} textAlign="center">
                     <Text fontWeight={"bold"} fontSize={{base: "24px", md:"32px"}}>Digital Product Development</Text>
                     <Text fontSize={"16px"}>ผู้เรียนจะได้เรียนรู้พื้นฐาน ของการออกแบบผลิตภัณฑ์ดิจิทัล การออกแบบที่คำนึงถึงปฏิสัมพันธ์ระหว่างผู้ใช้กับผลิตภัณฑ์หรือบริการการปรับปรุงประสบการณ์ของผู้ใช้ เรียนรู้เครื่องมือที่ใช้ ในการทำงานร่วมกัน และเครื่องมือที่จำเป็นในการออกแบบผลิตภัณฑ์ หรือบริการ</Text>
                 </VStack>
